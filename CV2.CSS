@@ -1,0 +1,98 @@
+body {
+    background-color: lightgray;
+}
+
+#container1 {
+    width: 210mm;
+    height: 297mm;
+    background-color: rgba(104, 232, 104);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#Education {
+    font-family: "Rubik", sans-serif;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px
+        /* Aggiungi margine inferiore per spazio tra il testo e l'hr */
+
+}
+
+hr {
+    width: 290px;
+    /* Imposta la larghezza al 100% per adattarsi al contenitore */
+    border: 1.5px solid rgb(4, 60, 4);
+}
+
+#Language {
+    font-family: "Rubik", sans-serif;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#text3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#Badge {
+    background-image: url(Badge.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 40%;
+}
+
+#text4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#QrCode {
+    background-image: url(QRCode.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 40%;
+}
+
+#diploma {
+    background-image: url(https://images.emojiterra.com/twitter/512px/1f4dc.png);
+    width: 26.5px;
+    height: 26.5px;
+    display: inline-block;
+    background-size: contain;
+    position: relative;
+    top: 6px;
+    right: 3px;
+}
+
+#laurea {
+    background-image: url(https://cdn.shopify.com/s/files/1/1061/1924/files/Graduation_Cap_Emoji.png?9898922749706957214);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    position: relative;
+    top: 6px;
+    right: 6px;
+}
